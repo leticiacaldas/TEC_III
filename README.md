@@ -1,7 +1,8 @@
-Jogo da Forca
+**Jogo da Forca**
 
 Este projeto implementa um jogo da forca em Python, onde os jogadores tentam adivinhar uma palavra secreta fornecida a partir de um arquivo de texto. O jogo foi desenvolvido como parte da disciplina optativa TECIII: Programação por Pares com IA na Universidade Federal de Pelotas, ministrada pela professora Patrícia A. Jaques Maillard.
-Descrição
+
+**Descrição**
 
 O jogo da forca é um clássico jogo de adivinhação de palavras. Os jogadores têm um número limitado de tentativas para adivinhar a palavra secreta, letra por letra. Cada tentativa incorreta resulta em uma parte do corpo do boneco da forca sendo desenhada. O jogo termina quando o jogador adivinha a palavra corretamente ou esgota todas as tentativas.
 Funcionalidades
@@ -12,7 +13,7 @@ Funcionalidades
     Verificação e feedback de letras adivinhadas corretamente ou incorretamente.
     Exibição do progresso do jogador ao longo do jogo.
 
-Estrutura do Código
+**Estrutura do Código**
 
     read_word_from_file(file_path): Lê a palavra secreta de um arquivo de texto.
     display_hangman(remaining_attempts): Exibe o estado atual do boneco da forca com base nas tentativas restantes.
@@ -21,7 +22,7 @@ Estrutura do Código
     play_game(secret_word): Gerencia a lógica principal do jogo, incluindo o loop de tentativas e a verificação de vitória ou derrota.
 
    
-Desenvolvimento
+**Desenvolvimento**
 
 Este projeto foi desenvolvido com a assistência do GitHub Copilot, que forneceu sugestões de código e feedback em tempo real. O Copilot ajudou a acelerar o desenvolvimento, sugerindo trechos de código, corrigindo erros comuns e oferecendo melhorias para a estrutura do código.
 Sobre a Disciplina
